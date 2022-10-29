@@ -3,7 +3,8 @@
 
 // import { Box } from "./Box";
 import { ThemeProvider } from "./context/ThemeContext";
-import { UseRefDemo } from "./UseRefDemo";
+import { UseMemoDemo } from "./UseMemoDemo";
+// import { UseRefDemo } from "./UseRefDemo";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         {/* <UseStateDemo/> */}
         {/* <UseEffectDemo/> */}
         {/* <Box /> */} {/* <- for useContext demo */}
-        <UseRefDemo/>
+        {/* <UseRefDemo/> */}
+        <UseMemoDemo/>
       </div>
     </ThemeProvider>
   );
