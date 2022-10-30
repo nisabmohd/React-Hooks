@@ -3,10 +3,11 @@
 
 // import { Box } from "./Box";
 import { ThemeProvider } from "./context/ThemeContext";
+import UseIdDemo from "./UseIdDemo";
 // import { UseTransitionDemo } from "./UseTransitionDemo";
 // import { UseMemoDemo } from "./UseMemoDemo";
 // import { UseRefDemo } from "./UseRefDemo";
-import {UseDebugValueDemo} from './UseDebugValueDemo'
+// import {UseDebugValueDemo} from './UseDebugValueDemo'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         {/* <UseRefDemo/> */}
         {/* <UseMemoDemo/> */}
         {/* <UseTransitionDemo/> */}
-        <UseDebugValueDemo/>
+        {/* <UseDebugValueDemo/> */}
+        <UseIdDemo/>
       </div>
     </ThemeProvider>
   );
