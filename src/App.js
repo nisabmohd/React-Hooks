@@ -3,7 +3,8 @@
 
 // import { Box } from "./Box";
 import { ThemeProvider } from "./context/ThemeContext";
-import { UseMemoDemo } from "./UseMemoDemo";
+import { UseTransitionDemo } from "./UseTransitionDemo";
+// import { UseMemoDemo } from "./UseMemoDemo";
 // import { UseRefDemo } from "./UseRefDemo";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         {/* <UseEffectDemo/> */}
         {/* <Box /> */} {/* <- for useContext demo */}
         {/* <UseRefDemo/> */}
-        <UseMemoDemo/>
+        {/* <UseMemoDemo/> */}
+        <UseTransitionDemo/>
       </div>
     </ThemeProvider>
   );
