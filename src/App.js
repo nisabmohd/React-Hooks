@@ -3,8 +3,9 @@
 
 // import { Box } from "./Box";
 import { ThemeProvider } from "./context/ThemeContext";
+import FetchDemo from "./FetchDemo";
 // import UseIdDemo from "./UseIdDemo";
-import UseLocalSrorageDemo from "./UseLocalSrorageDemo";
+// import UseLocalSrorageDemo from "./UseLocalSrorageDemo";
 // import { UseTransitionDemo } from "./UseTransitionDemo";
 // import { UseMemoDemo } from "./UseMemoDemo";
 // import { UseRefDemo } from "./UseRefDemo";
@@ -23,7 +24,8 @@ function App() {
         {/* <UseDebugValueDemo/> */}
         {/* <UseIdDemo/> */}
 
-        <UseLocalSrorageDemo />
+        {/* <UseLocalSrorageDemo /> */}
+        <FetchDemo></FetchDemo>
       </div>
     </ThemeProvider>
   );
