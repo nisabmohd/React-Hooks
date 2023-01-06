@@ -3,7 +3,8 @@
 
 // import { Box } from "./Box";
 import { ThemeProvider } from "./context/ThemeContext";
-import UseIdDemo from "./UseIdDemo";
+// import UseIdDemo from "./UseIdDemo";
+import UseLocalSrorageDemo from "./UseLocalSrorageDemo";
 // import { UseTransitionDemo } from "./UseTransitionDemo";
 // import { UseMemoDemo } from "./UseMemoDemo";
 // import { UseRefDemo } from "./UseRefDemo";
@@ -20,7 +21,9 @@ function App() {
         {/* <UseMemoDemo/> */}
         {/* <UseTransitionDemo/> */}
         {/* <UseDebugValueDemo/> */}
-        <UseIdDemo/>
+        {/* <UseIdDemo/> */}
+
+        <UseLocalSrorageDemo />
       </div>
     </ThemeProvider>
   );
